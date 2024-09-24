@@ -26,7 +26,6 @@ h1, h2, h3 {
     color: #252525;
 }
 
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -113,15 +112,30 @@ main {
     color: #ffffff;
 }
 
+/* Reasons section */
 #reasons {
     width: 90%;
-    margin: 0 auto 20px;
+    margin: 20px auto;
 }
 #reasons h2 {
     font-size: 280%;
     text-align: center;
     margin-bottom: 20px;
 }
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 /* Gallery page */
 #photos img {
@@ -136,7 +150,7 @@ main {
 /* Footer */
 #social-networks {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
