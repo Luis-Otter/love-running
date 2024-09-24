@@ -37,7 +37,7 @@
 
     <main>
         <section id="signup">
-            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form"></form>
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form">
                 <h2><i class="fa-solid fa-heart-pulse"></i>Let's Get You Signed Up!</h2>
                 <label for="first-name">First Name</label>
                 <input required type="text" name="first-name" id="first-name"><br>
@@ -48,15 +48,15 @@
                 <div class="radio-buttons">
                     <div>
                         <label for="road">Road</label>
-                        <input required checked type="radio" name="running_preference" id="road"><br>
+                        <input required checked type="radio" name="running_preference" value="road" id="road"><br>
                     </div>
                     <div>
                         <label for="trail">Trail</label>
-                        <input required type="radio" name="running_preference" id="trail"><br>
+                        <input required type="radio" name="running_preference" value="trail" id="trail"><br>
                     </div>
                     <div>
                         <label for="both">Both</label>
-                        <input required type="radio" name="running_preference" id="both"><br>
+                        <input required type="radio" name="running_preference" value="both" id="both"><br>
                     </div>
                 </div>
                 <input type="submit" class="join-button" value="Let's Run!">
